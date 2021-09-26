@@ -1,0 +1,17 @@
+.navigation-container {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+.navigation-container a {
+  text-decoration: none;
+  color: whitesmoke;
+  margin-right: 5px;
+  padding: 15px;
+  font-size: larger;
+}
+
+.navigation-container a:hover {
+  background-color: teal;
+}
