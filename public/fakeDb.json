@@ -1,20 +1,106 @@
 [
   {
-    "id": "1",
+    "id": 1,
     "Name": "Charles Dickens",
     "img": "https://i.guim.co.uk/img/media/c4c3ed5b82928811b804cc817f77da2e15ea228b/0_372_2400_1440/master/2400.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=205673e183abf0868afde350308e736a",
-    "Born": "February 7, 1812, Landport, Portsmouth, United Kingdom",
-    "Died": "June 9, 1870, Gads Hill Place, United Kingdom",
+    "Born": "February 7, 1812",
+    "Died": "June 9, 1870",
     "family": "Francis Dickens",
-    "Movies": "A Christmas Carol, Oliver!"
+    "Books": "A Christmas Carol",
+    "Wealth": 80000
   },
   {
-    "id": "2",
+    "id": 2,
     "Name": "William Shakespeare",
     "img": "https://smedia2.intoday.in/indiatoday/images/stories/2014April/shakespeare2_042314010634.jpg",
-    "Born": "April 15, 1564, Stratford-upon-Avon, United Kingdom",
-    "Died": "April 23, 1616, Stratford-upon-Avon, United Kingdom",
-    "family": "Anne Hathaway ",
-    "Movies": "William Shakespeare Romeo + Juliet"
-  }
+    "Born": "April 15, 1564",
+    "Died": "April 23, 1616",
+    "family": "Anne Hathaway",
+    "Books": "Romeo + Juliet",
+    "Wealth": 10000
+    
+  },
+  {
+  "id": 3,
+  "Name": "Ernest Hemingway",
+  "img": "https://cdn.britannica.com/03/146403-050-BFFED054/Ernest-Hemingway-safari-Tanganyika-1934.jpg",
+  "Born": "July 21, 1899",
+  "Died": "July 2, 1961",
+  "family": "Gregory Hemingway",
+  "Books": "In Our Time",
+   "Wealth": 20000
+},
+{
+  "id": 4,
+  "Name": "Jorge Luis Borges",
+  "img": "https://m.media-amazon.com/images/M/MV5BMDNlYzVlMzAtY2IwNC00NWJhLWFjYTYtNDFiMmRjZDgwMzQ5XkEyXkFqcGdeQXVyNjU0ODkwMTU@._V1_.jpg",
+  "Born": "August 24, 1899",
+  "Died": "June 14, 1986",
+  "family": " María Kodama",
+  "Books": "Labyrinths",
+  "Wealth": 20000
+},{
+  "id": 5,
+  "Name": "Agatha Christie",
+  "img": "https://agathachristie.imgix.net/archive/website/home/ac-photo.jpg?auto=compress,format&fit=clip&q=65&w=400",
+  "Born": "September 15, 1890",
+  "Died": "January 12, 1976",
+  "family": "Max Mallowan",
+  "Books": "The Mysterious Affairs at Style",
+  "Wealth": 20000
+},{
+  "id": 6,
+  "Name": "Jules Verne",
+  "img": "https://cdn.britannica.com/w:400,h:300,c:crop/37/8837-050-A800B8F5/Jules-Verne.jpg",
+  "Born": "February 8, 1828",
+  "Died": "March 24, 1905",
+  "family": "Honorine Anne Hébée Morel",
+  "Books": "Around the World in 80 days",
+  "Wealth": 14000
+},{
+  "id": 7,
+  "Name": "Mark Twain",
+  "img": "https://i.pinimg.com/originals/39/d7/ca/39d7ca9b09e131bbef9de503c3276a74.jpg",
+  "Born": "November 30, 1835",
+  "Died": "April 21, 1910",
+  "family": "",
+  "Books": "The Adventure Of Tom Sawyer",
+  "Wealth": 10000
+},{
+  "id": 8,
+  "Name": "Leo Tolstoy",
+  "img": "https://cdn.britannica.com/w:400,h:300,c:crop/94/4694-050-CABE0BB0/Leo-Tolstoy.jpg",
+  "Born": "September 9, 1828",
+  "Died": "November 20, 1910",
+  "family": " Andrei Lvovich Tolstoy",
+  "Books": "War And Peace",
+  "Wealth": 12000
+},{
+  "id": 9,
+  "Name": "Herman Melville",
+  "img": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Herman_Melville_by_Joseph_O_Eaton.jpg",
+  "Born": "August 1, 1819",
+  "Died": "September 28, 1891",
+  "family": " Elizabeth Shaw",
+  "Books": "Typee: A Peep at Polynesian Life",
+  "Wealth": 15000
+},{
+  "id": 10,
+  "Name": "Ian Fleming",
+  "img": "https://media.gettyimages.com/photos/24th-march-1958-ian-fleming-british-author-and-creator-of-james-bond-picture-id3359193?s=612x612",
+  "Born": "May 28, 1908",
+  "Died": "August 12, 1964",
+  "family": " Ann Fleming ",
+  "Books": "GoldFinger",
+  "Wealth": 20000
+},{
+  "id": 11,
+  "Name": "Alexander Pushkin",
+  "img": "https://m.media-amazon.com/images/M/MV5BYzY4NDA3NjMtNjg4Yi00YzFmLWJmOTgtNWUzY2U2YzU5NDgzL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMjIxMzMyMQ@@._V1_.jpg",
+  "Born": "June 6, 1799",
+  "Died": "January 29, 1837",
+  "family": "Maria Pushkina",
+  "Books": "The Bronze Horseman",
+  "Wealth": 22000
+}
 ]

@@ -1,0 +1,16 @@
+.cart-total {
+  color: teal;
+  margin: 30px;
+}
+
+.author-name {
+  color: salmon;
+}
+
+.single-cart {
+  border: 1px solid goldenrod;
+  background-color: whitesmoke;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: 500;
+}

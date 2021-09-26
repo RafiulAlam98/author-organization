@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Author from '../Author/Author';
+import Favourite from '../Favourite/Favourite';
 import './Committe.css';
 
 const Committe = () => {
@@ -18,21 +19,23 @@ const Committe = () => {
   };
 
   return (
-    <div class="row">
-      <div class="col-9">
-        <div class="row">
-          <div class="col">
-            {committes.map(committe => (
-              <Author
-                key={committe.id}
-                committe={committe}
-                handleFavoriteButton={handleFavoriteButton}
-              ></Author>
-            ))}
-          </div>
-        </div>
+    <div className="ms-3 committe-container">
+      <div className="author-container">
+        {committes.map(committe => (
+          <Author
+            key={committe.id}
+            committe={committe}
+            handleFavoriteButton={handleFavoriteButton}
+          ></Author>
+        ))}
       </div>
-      <div class="col-3">add to favourite: {favourite.length}</div>
+      <div className="cart-container">
+        <h3 className="cart-header">
+          Favourite Added:{' '}
+          <span className="favourite-count">{favourite.length}</span>
+        </h3>
+        <Favourite favourite={favourite}></Favourite>
+      </div>
     </div>
   );
 };

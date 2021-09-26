@@ -1,10 +1,10 @@
-.navigation-container {
+.header-container {
   background-color: black;
   padding: 20px;
   text-align: center;
 }
 
-.navigation-container a {
+.header-container a {
   text-decoration: none;
   color: whitesmoke;
   margin-right: 5px;
@@ -12,6 +12,13 @@
   font-size: larger;
 }
 
-.navigation-container a:hover {
+.header-container a:hover {
   background-color: teal;
+}
+.header {
+  color: whitesmoke;
+}
+
+.welfare {
+  color: tomato;
 }
