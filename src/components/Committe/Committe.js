@@ -4,6 +4,7 @@ import Favourite from '../Favourite/Favourite';
 import './Committe.css';
 
 const Committe = () => {
+  // state declaration
   const [committes, setCommittes] = useState([]);
   const [favourite, setFavourite] = useState([]);
 
@@ -12,6 +13,8 @@ const Committe = () => {
       .then(res => res.json())
       .then(data => setCommittes(data));
   }, []);
+
+  // Button handler function
 
   const handleFavoriteButton = committe => {
     const newCount = [...favourite, committe];

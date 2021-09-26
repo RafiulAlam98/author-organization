@@ -4,7 +4,7 @@ import { faHeart } from '@fortawesome/free-solid-svg-icons';
 import './Author.css';
 
 const Author = props => {
-  // console.log(props.committe);
+  // destructuring object
   const { Name, img, Born, Died, Books, family, Wealth } = props.committe;
   const favouriteIcon = (
     <FontAwesomeIcon className="favourite-color" icon={faHeart} />

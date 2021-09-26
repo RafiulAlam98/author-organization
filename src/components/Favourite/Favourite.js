@@ -2,6 +2,7 @@ import React from 'react';
 import './Favourite.css';
 
 const Favourite = props => {
+  // get data by props
   const { favourite } = props;
   console.log(favourite);
   let total = 0;
